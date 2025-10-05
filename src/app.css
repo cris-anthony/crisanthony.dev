@@ -1,3 +1,32 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+
+:root {
+    --color-bg: #f0f0f0;
+    --color-text: #313131;
+    --color-primary: #1d4ed8;
+    --color-secondary: #9333ea;
+    --color-accent: #f59e0b;
+    --color-muted: #6b7280;
+    --color-border: #e5e7eb;
+    --color-success: #10b981;
+    --color-warning: #fbbf24;
+    --color-error: #ef4444;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-bg: #43474d;
+        --color-text: #f3f4f6;
+        --color-primary: #3b82f6;
+        --color-secondary: #a78bfa;
+        --color-accent: #fbbf24;
+        --color-muted: #9ca3af;
+        --color-border: #374151;
+        --color-success: #34d399;
+        --color-warning: #fbbf24;
+        --color-error: #f87171;
+    }
+}
