@@ -19,7 +19,9 @@
         "Finding the \"Any\" key",
         "Waiting at the coffee machine",
         "Turning it off and on again",
-        "Shopping on Amerzon"
+        "Shopping on Amerzon",
+        "Talking to Herman",
+        "Setting up catering"
     ];
 
     let displayedLines: string[] = [];
