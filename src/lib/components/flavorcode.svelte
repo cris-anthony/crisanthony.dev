@@ -2,7 +2,7 @@
     import { onMount } from 'svelte';
 
     const flavorText: string[] = [
-        "Reticulating spines",
+        "Reticulating splines",
         "Generating witty dialog",
         "Optimizing the optimizer",
         "Re-linting the source code",
