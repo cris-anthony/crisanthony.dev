@@ -1,0 +1,1 @@
+export const prerender = true; // enable prerendering for this layout and all pages under it
