@@ -18,7 +18,8 @@
         "Downloading more RAM",
         "Finding the \"Any\" key",
         "Waiting at the coffee machine",
-        "Turning it off and on again"
+        "Turning it off and on again",
+        "Shopping on Amerzon"
     ];
 
     let displayedLines: string[] = [];
